@@ -1,0 +1,80 @@
+
+
+
+
+
+    第三方模块 : npm;别人写好的可以拿过来用；
+
+    初始化npm : npm init -y
+    npm  install   xxx  -g : 全局安装；把模块xxx安装到全局环境中；
+    npm  install  xxx    : 在当前的目录下安装；
+    npm  install  xxx  --save-dev;  把模块安装当下项目下，并且在pakage.json中进行记录；
+    npm install  xxx --save  : 生产环境依赖；
+
+    npm  install  jquery@ + 版本号： 安装对应的版本号模块；
+
+
+    在浏览器中最大的全局对象是window；
+    在node中最大的全局对象global；
+
+    DOS  : disk  operating   system  : 磁盘操作系统；
+    1. 搜索框输入cmd  回车进入命令操作系统；
+    命令窗口对应一个磁盘路径，操作都是针对当前文件夹进行操作的；
+
+    2. 在磁盘找到相应文件夹，按着shift+ 鼠标右键，在此处打开命令行；
+
+    3.通过命令行窗口找到相应文件，进行操作；
+    E：  cd + 文件名
+
+
+    ipconfig  ：  查看本地IP地址；每一台电脑都不一样；
+    ipconfig -All : 查看当前电脑所有的配置信息；
+    不是内部或外部命令，也不是可运行的程序 :
+
+    ping www.baidu.com  -t  : 查看当前网络的速度；
+
+    ctrl  c : 停止正在执行的命令；
+
+    cls  : 清空所有的命令行；
+
+    exit  ： 退出当前窗口；
+
+    mkdir : 创建文件夹；
+
+    rmdir : 删除文件夹；
+
+    cd  ../  : 返回上一级目录；
+    cd  ./  : 当前目录下
+    cd  / : 返回根目录；
+
+
+    dir  : 查看当前目录所有显示的文件
+    dir  -All  : 查看当前目录下所有的额隐藏的以及显示的文件；
+
+
+npm install + vue
+npm install + vue@2.3.2  ---> 【版本号】;
+
+
+生产依赖：dependencies: 线上依赖；线上也需要的模块叫生产依赖；
+npm i bootstrap  --save
+开发依赖：devDependencies  : babel ->把es6转义es5;
+npm i bootstrap  --save-dev
+npm uninstall  babel --save-dev
+npm install ： 安装package中所有的模块；
+
+npm install vue -g : 全局安装；
+
+nrm  ls : 查看源；
+nrm  test 测试当前和源的链接速度；
+nrm  use  + 源名字 ： 切换源；
+
+yarn :
+yarn add  + 包 ： 安装包；
+yarn  remote  + 包 ： 删除
+yarn add  vue  -g : 全局安装；
+yarn  add vue  --save-dev
+yarn start   运行
+
+
+// npm init -y

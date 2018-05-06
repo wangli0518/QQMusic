@@ -1,0 +1,59 @@
+
+
+    1. mkdir  + 文件名  创建文件夹  mypro
+    2. rm  -rf  + 文件名
+    3.cd  + 文件夹名字   cd  + D:
+    4.touch  1.txt;
+    5.vi  + 文件名    i : 进入编辑模式  esc: 退出编辑模式  ：q退出
+    :q! : 强制退出    ：wq : 保存并退出；
+    6.cat  1.txt  : 查看内容
+    7.echo  编辑内容 > 文件名；覆盖式编辑 echo  编辑内容 >>  文件名；新增式编辑
+    8.ls  -all : 查看当前文件下所有的目录；
+
+    clear  清除
+    git  init : 初始化git ；让当前文件夹被git所管理；
+    git  status : 查看当前git仓库状态；
+    git  add  .  / -A  : 把工作区代码提交到暂存区；
+    git  commit  -m"注释"
+    在工作区的文件时红色的，在暂存区中是绿色的； 而且git 不能直接从工作区提交到历史区；
+    git  log  : 查看日志 ； 各个版本号；
+
+    git  reset  HEAD 删除暂存区之前的提交状态
+
+    git  checkout  1.txt : 把暂存区文件覆盖本地的文件；
+
+    git  diff  : 工作区和暂存区的比较
+    git  diff  --cached :暂存区和历史区比较
+    git  diff  master : 工作区和历史区比较；
+
+
+    git  rm  文件名； 删除本地文件；暂存区也消失；
+    git  rm  --cached  "文件名"： 仅删除缓存区文件；
+
+分支
+    $ git branch  查看分支
+    $ touch "文件名"    创建文件
+
+    master : 主干； 当有文件提交到历史区之后才会出现主干；
+    git branch  : 查看当前仓库的分支；
+    git  checkout  + 分支名字：切换分支；
+    git  branch  -d  + 分支名 ;(不能再当前分支下删除这个分支；)
+    在分支上提交，那么主干和分支就没有任何关系了；
+    git merge + 分支名 : 把分支的代码合并到主干上；【在主干下去操作】；
+
+远程仓库
+    gitHub 账号
+    new  repository  : 创建一个远程的仓库；
+    git remote -v  查看当前仓库和远程仓库的关联；
+    git  remote add node[自定义]  + 仓库地址 ： 把远程仓库和当前仓库进行关联；
+    git fetch  node[自定义]  master: 从远程仓库把资源拉取到本地；
+    git pull  node master =  git  fetch  +  git merge; (拉取还进行合并)
+
+     把本地仓库资源上传到远程仓库；
+    git  add  . / -A ： 把工作区提交到暂存区
+    git  commit -m"注释" ： 把暂存区提交到历史区；
+    git push  仓库名字【自定义】 master ：把历史区的代码提交到远程仓库；
+    git pull origin master --allow-unrelated-histories；处理远程和本地冲突的；
+
+    如果文件夹是空的，那么不会提交到远程仓库；
+    git clone + 仓库地址： 把远程仓库克隆到本地；
