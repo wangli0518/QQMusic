@@ -1,0 +1,36 @@
+.carousel img {
+  width: 100%;
+  height: 180px;
+}
+.home-swiper {
+  position: relative;
+}
+.home-swiper .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.home-swiper .dots span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+  background: #fff;
+}
+.home-swiper .dots span.active {
+  background: red;
+}
+.content {
+  position: fixed;
+  left: 0;
+  top: 56px;
+  right: 0;
+  bottom: 53px;
+  overflow: scroll;
+}
+.AD img {
+  width: 100%;
+}

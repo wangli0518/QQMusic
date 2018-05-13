@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: lightskyblue;
+}
+.header a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+}
+.header i {
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+}
+.header .input {
+  position: absolute;
+  top: 14px;
+  margin-left: 70px;
+  width: 60%;
+  border: none;
+  height: 25px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.header .input .ip {
+  position: absolute;
+  left: 30px;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: normal;
+  top: 4px;
+}
+.header .chat {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 20px;
+}
+.picture .slider {
+  width: 100%;
+  display: block;
+  height: 200px;
+  margin: 50px auto 0;
+}
+.picture .pic {
+  width: 100%;
+  display: block;
+  height: 100px;
+  margin: 20px auto;
+}
+.fruits .carousel {
+  position: fixed;
+  left: 0;
+  top: 50px;
+}
+.fruits .carousel img {
+  width: 100%;
+  height: 180px;
+}
+.fruits .home-swiper {
+  position: relative;
+}
+.fruits .home-swiper .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fruits .home-swiper .dots span {
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  border-radius: 4px;
+  margin: 5px;
+  background: white;
+}
+.fruits .home-swiper .dots span.active {
+  background: lawngreen;
+}
+.fruits .fruits ul {
+  overflow: hidden;
+  margin-left: 20px;
+}
+.fruits .fruits ul .oli {
+  float: left;
+  width: 23%;
+  list-style: none;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.fruits .fruits ul .oli img {
+  width: 50%;
+}
+.fruits .fruits ul .oli p {
+  font-size: 12px;
+  color: black;
+}
+.fruits .fruits .two {
+  width: 100%;
+}
+.fruits .outer .bot-pic {
+  width: 100%;
+}
+.fruits .outer .row-out {
+  overflow: auto;
+}
+.fruits .outer .row-out .row-oul {
+  overflow: hidden;
+  width: 200%;
+}
+.fruits .outer .row-out .row-oul .row-list {
+  float: left;
+  list-style: none;
+  width: 20%;
+  font-size: 14px;
+}
+.fruits .outer .row-out .row-oul .row-list img {
+  width: 80%;
+}
+.fruits .outer .row-out .row-oul .row-list .row-bot {
+  margin-left: 20px;
+}
+.fruits .outer .row-out .row-oul .row-list .row-bot p {
+  width: 80%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  color: black;
+}
+.fruits .outer .row-out .row-oul .row-list .row-bot span:nth-of-type(1) {
+  color: red;
+  margin-right: 10px;
+}
+.fruits .outer-list .row-out-list .row-oul-list .bot-row-list {
+  border-bottom: 4px solid #cccccc;
+  font-size: 16px;
+}
+.fruits .outer-list .row-out-list .row-oul-list .bot-row-list .bot-list-pic {
+  width: 50%;
+  display: inline-block;
+}
+.fruits .outer-list .row-out-list .row-oul-list .bot-row-list .bot-list {
+  float: right;
+  margin-top: 65px;
+  width: 50%;
+  display: inline-block;
+}
+.fruits .outer-list .row-out-list .row-oul-list .bot-row-list .bot-list p {
+  margin-bottom: 40px;
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.fruits .outer-list .row-out-list .row-oul-list .bot-row-list .bot-list span {
+  display: inline-block;
+}
+.fruits .outer-list .row-out-list .row-oul-list .bot-row-list .bot-list .left-span {
+  color: #fb3d61;
+  margin-right: 10px;
+}
+.fruits .box-top {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+}
+.fruits .box-top .to-top {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}

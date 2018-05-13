@@ -1,0 +1,27 @@
+@charset "utf-8";
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+section,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+body,input,button,textarea,select{-webkit-text-size-adjust:none;font:normal 12px/18px Helvetica;outline:0}
+body{width:100%;font-family:"Microsoft YaHei",helvetica,arial,verdana,tahoma,sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;word-break:break-all;word-wrap:break-word;background:#f6f6f6}
+video{border:0;max-width:100%;height:auto;width:auto\9}
+img{max-width:100%;width:auto\9;height:auto;border:0;vertical-align:middle;-ms-interpolation-mode:bicubic;-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;tap-highlight-color:transparent;-webkit-touch-callout:none;-moz-touch-callout:none;-o-touch-callout:none;-ms-touch-callout:none;touch-callout:none}
+input,select,button,textarea{vertical-align:middle;font-size:12px;outline:0}
+ol,ul,li{list-style:none}
+i,em{font-style:normal}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+textarea{resize:vertical;overflow:auto;vertical-align:top}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button}
+input,textarea{-webkit-appearance:none}
+input[type=search]{-webkit-appearance:none}
+input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{display:none}
+table{border-collapse:collapse;border-spacing:0}
+a{outline:0;text-decoration:none;color:#000}
+a:link{color:#000}
+a:visited{color:#000}
+a:focus{color:#000}
+a:hover{text-decoration:none;color:#901d22}
+a:active{color:#000}
+.clearfix{*zoom:1}
+.clearfix:after{content:" ";overflow:hidden;clear:both;display:block;height:0}

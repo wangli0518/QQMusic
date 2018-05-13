@@ -1,0 +1,97 @@
+html {
+  font-size: 30px;
+}
+html .kind {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+html .kind .kind-seek {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.35rem;
+  width: 100%;
+  background: #fff;
+  padding: .25rem .32rem;
+  box-sizing: border-box;
+  z-index: 99;
+}
+html .kind .kind-seek input {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  height: 0.9rem;
+  width: 10.2rem;
+  background: #f4f4f4;
+  border-radius: 20px;
+  padding: 0 .7rem 0 1.05rem;
+  box-sizing: border-box;
+  font-size: .4rem;
+  border: none;
+}
+html .kind .kind-seek .icon {
+  position: absolute;
+  left: .38rem;
+  top: 50%;
+  margin-top: -0.215rem;
+  display: inline-block;
+  width: .43rem;
+  height: .43rem;
+  z-index: 100;
+}
+html .kind .kind-seek span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: .32rem;
+  display: block;
+  height: 1.35rem;
+  width: 1.3rem;
+  text-align: center;
+  line-height: 1.35rem;
+  font-size: .46rem;
+  color: #11b57c;
+}
+html .kind .kind-nav {
+  width: 3.27rem;
+  height: 100%;
+  background: #f4f4f4;
+  padding: .5rem .5rem 100px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+html .kind .kind-nav li {
+  padding: .64rem 0 .64rem 0;
+  text-align: center;
+  font-size: .42rem;
+  color: #333;
+  height: 1.7rem;
+}
+html .kind .kind-list {
+  width: 8rem;
+  padding: .5rem .6rem 50px .6rem;
+  position: absolute;
+  top: 1.35rem;
+  left: 3.27rem;
+}
+html .kind .kind-list .photograph {
+  display: inline-block;
+  width: 1.89rem;
+  height: 3.18rem;
+  position: relative;
+  padding-top: 2rem;
+  margin: 0 .43rem;
+  text-align: center;
+  font-size: .38rem;
+  color: #808080;
+}
+html .kind .kind-list .photograph img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.89rem;
+  height: 1.89rem;
+  background: #6d6d6d;
+}

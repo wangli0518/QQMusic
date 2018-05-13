@@ -1,0 +1,69 @@
+.disembark {
+  width: 532px;
+  height: 531px;
+}
+.disembark .input-item {
+  width: 532px;
+  height: 182px;
+  border: 1px solid #d9dfd5;
+  margin-top: 30px;
+  padding: 0 0 0 20px;
+  background: #fff;
+}
+.disembark .input-item .input-item-list {
+  width: 512px;
+  height: 60px;
+  border-bottom: 1px solid peachpuff;
+}
+.disembark .input-item .ico-username {
+  width: 512px;
+  height: 30px;
+  padding: 14px 0;
+  border: none;
+}
+.disembark .login-option {
+  width: 100%;
+  height: 18px;
+  padding: 30px 0;
+}
+.disembark .login-option .retrieve_password {
+  margin: 20px;
+  width: 68px;
+  height: 18px;
+}
+.disembark .login-option .retrieve_password .retrieve_p {
+  color: darkgreen;
+  font-size: 16px;
+}
+.disembark .btn-login {
+  width: 100%;
+  height: 40px;
+}
+.disembark .btn-login .btn_green {
+  width: 212px;
+  height: 40px;
+  background: darkgreen;
+  border-radius: 5px;
+  color: #cccccc;
+  font-size: 18px;
+  margin: 0 25px;
+}
+.disembark .btn-login .btn_white {
+  width: 212px;
+  height: 40px;
+  border-radius: 5px;
+  color: darkgreen;
+  background: #cccccc;
+  margin: 0 25px;
+}
+.disembark .login-other {
+  width: 100%;
+  height: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+.disembark .log-top {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
